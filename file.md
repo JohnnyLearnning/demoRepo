@@ -65,4 +65,27 @@ ensure we are on the main branch
 git merge branchname that we want to merge on to main
 (git merge branch1)
 
-#go to gtthub create repo
+# Go to gtthub create new repo - public -uncheck read me- follow steps
+# follow the link the cl gives you to your new repo
+
+# to copy from remote repo
+<>code copy link
+git clone paste url
+
+#making a chnage so I can push, fail show login with tokens
+making change to see if I have to log back in
+to avoid usernames being asked all the time
+#caching credentials in file.md
+git config --global credential.helper store
+
+git add .
+git commit -m "make changes"
+git push
+
+on terminal
+git status
+git push
+username: 
+password:
+
+in github-settings  under profile - dev settings- tokens clasic - check all boxes- experiation- gnerate token
