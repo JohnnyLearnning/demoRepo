@@ -1,3 +1,42 @@
-create git repo git init
-go not touch .gitrepo folder
-git branch -M main to chnage name of branch
+#create git repo 
+git init
+
+do not touch .gitrepo folder
+
+# changed the name of the branch
+git branch -M main
+
+#To show branch name
+
+#dir lists directory in powershell
+
+# add file to git 
+git add .\file.md
+
+#commits the code
+git commit
+# commits the changes to local git repo
+git commit -m "added file.md"
+
+# make sure to add your username and email if asked
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+~/.gitconfig
+
+# to see if everything was successfull
+git staus
+
+git log
+#go back a commit
+git checkout 173593c75b1a
+#will point the head to the main branch again
+git checkout main 
+
+
+
+cd ~
+start.
+
+
+# make sure that the default branch for any repo is main instead of master
+git config --global unit.defaultbranch main
