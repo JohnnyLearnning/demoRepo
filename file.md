@@ -59,3 +59,10 @@ git commit -m "added to new branch"
 # one more change to show new branch path
 #to switch branches
 git checkout branchname (main)
+
+# merge branches to main
+ensure we are on the main branch
+git merge branchname that we want to merge on to main
+(git merge branch1)
+
+#go to gtthub create repo
