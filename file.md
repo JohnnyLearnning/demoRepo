@@ -57,3 +57,5 @@ git status
 git commit -m "added to new branch"
 
 # one more change to show new branch path
+#to switch branches
+git checkout branchname (main)
