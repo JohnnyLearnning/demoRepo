@@ -1,0 +1,3 @@
+create git repo git init
+go not touch .gitrepo folder
+git branch -M main to chnage name of branch
